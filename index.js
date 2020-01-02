@@ -23,22 +23,17 @@ function johnLennonFacts(facts) {
   return facts;
 }
 
+
+
 function iLoveTheBeatles(number) {
 
   var newArray = new Array();
 
-  function incrementVariable() {
-  number = number + 1;
-  newArray[number] = "I love the Beatles!";
-  return newArray;
-}
-
 
 do {
+  number++;
   newArray[number] = "I love the Beatles!";
-} while (incrementVariable() < 15);
-  //newArray[number] = "I love the Beatles!";
-  //++number;
-
+} while (number < 15);
+  
 return newArray;
 }

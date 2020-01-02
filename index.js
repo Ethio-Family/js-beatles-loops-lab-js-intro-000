@@ -29,6 +29,7 @@ function iLoveTheBeatles(number) {
 
   function incrementVariable() {
   number = number + 1;
+  newArray[number] = "I love the Beatles!";
   return number;
 }
 

@@ -34,6 +34,6 @@ do {
   number++;
   newArray[number] = "I love the Beatles!";
 } while (number < 15);
-  
+
 return newArray;
 }
